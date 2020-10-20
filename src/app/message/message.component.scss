@@ -1,0 +1,15 @@
+h2{
+  color: midnightblue;
+}
+
+.clear-btn{
+  margin-bottom: 15px;
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  &:hover{
+    background-color: lightskyblue;
+  }
+}
