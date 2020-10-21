@@ -1,0 +1,40 @@
+a{
+  text-decoration: none;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list-item{
+}
+
+.module{
+  background-color: darkslateblue;
+  color: white;
+  width: 200px;
+  height: 100px;
+
+  &:hover{
+    background-color: lightskyblue;
+    color: black;
+  }
+
+  & h4{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+

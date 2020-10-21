@@ -1,0 +1,87 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+.list-heroes{
+  margin: 0 0 15px 0;
+  list-style: none;
+  width: 220px;
+
+  & li{
+    position: relative;
+    margin: 5px;
+    padding-right: 25px;
+    cursor: pointer;
+    border: 1px solid cornflowerblue;
+    background-color: lightblue;
+    border-radius: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    &:hover{
+      left: 3px;
+      background-color: whitesmoke;
+    }
+    &.selected{
+      background-color: lightskyblue;
+    }
+  }
+}
+
+.item-heroes{
+  display: inline-block;
+  color: white;
+  background-color: cornflowerblue;
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px 0 0 5px;
+  height: 20px;
+  margin-right: 5px;
+  left: -1px;
+}
+
+.delete-name{
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+    &:hover{
+      color: darkred;
+      background-color: white;
+    }
+}
+
+.addName{
+  margin: 20px 0 20px 0;
+  font-size: 25px;
+  color: tomato;
+  font-weight: 400;
+  & input{
+    height: 25px;
+    width: 200px;
+    border: 1px solid midnightblue;
+  }
+}
+
+.addNameBtn{
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+    &:focus{
+      outline: none;
+    }
+    &:hover{
+      background-color: lightskyblue;
+    }
+}
